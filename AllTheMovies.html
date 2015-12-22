@@ -24,11 +24,14 @@
 </head>
 <body>
     <div id="xb_webcontainer" class="center-block">
+
         <!--内页头部无搜索部分-->
         <div class="head_inner_title">
             <a href="#" class="return pull-left"></a>
-            <h4 class="title pull-right">全部电影</h4>
+            <h4 class="title pull-left">全部电影</h4>
+            <!--<a class="introduces_or_search pull-right" ></a>-->
         </div>
+
         <!--热映和上映部分-->
         <div class="hit_and_release">
             <a href="#">正在热映</a>
@@ -41,7 +44,23 @@
 
 
     </div>
+    <script>
+        //--热映和上映部分激活状态链接标识条切换js
+        $(".hit_and_release > a").click(function (e) {
+            var mode = $(this).index();
+            var mark = $(".hit_and_release > div").eq(mode).hasClass("hide") ? 1 : 0;
+            if(mark == 1)
+            {
+                $(".hit_and_release > div").eq(mode).removeClass("hide");
+                $(".hit_and_release > div").eq(mode).addClass("show");
+                $(".hit_and_release > div").eq((mode + 1) % 2).addClass("hide");
+                $(".hit_and_release > div").eq((mode + 1) % 2).removeClass("show");
+            }
+        });
 
+
+
+    </script>
 </body>
 </html>
 
