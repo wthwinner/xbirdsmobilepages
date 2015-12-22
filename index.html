@@ -14,7 +14,7 @@
 <meta name="keywords" content="" />
 <title>喜鹊电影票首页</title>
 <link href="assets/css/normalize.css" rel="stylesheet" />
-<link href="assets/css/app.css" rel="stylesheet" />
+<link href="assets/css/app.css?v=1.2" rel="stylesheet" />
 <link href="assets/css/layout.css" rel="stylesheet" />
 <link href="assets/css/index.css" rel="stylesheet"/>
     <link href="assets/js/plugins/swiperv3.1/swiper3.1.0.min.css" rel="stylesheet" />
@@ -23,7 +23,7 @@
     <script src="assets/js/app.js"></script>   
 </head>
 <body>
-    <div id="xb_webcontainer" class="center-block">
+    <div id="xb_webcontainer" class="center-block havebottomnav">
         <div class="silder">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -33,14 +33,79 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-
         <div class="xb_rectplan">
-            <h3 class="title" data-href="http://www.baidu.com">正在热映 <label class="pull-right">更多<i></i></label></h3>
+            <h3 class="title " data-href="http://www.baidu.com">正在热映 <label class="pull-right">更多<i class="icon-uniE904"></i></label></h3>
+            <ul class="xb_imglistns clearfix">
+                <li>
+                    <img src="assets/images/filmlist_th.jpg" class="img-responsive">
+                    <div class="single-line filmtitle">夏洛特烦恼</div>
+                </li>
+                <li>
+                    <img src="assets/images/filmlist_th.jpg" class="img-responsive">
+                    <div class="single-line filmtitle">夏洛特烦恼</div>
+                </li>
+                <li>
+                    <img src="assets/images/filmlist_th.jpg" class="img-responsive">
+                    <div class="single-line filmtitle">夏洛特烦恼</div>
+                </li>
+            </ul>
         </div>
+        <div class="xb_rectplan">
+            <h3 class="title " data-href="http://www.baidu.com">即将上映 <label class="pull-right">更多<i class="icon-uniE904"></i></label></h3>
+            <ul class="xb_imglistns clearfix">
+                <li>
+                    <img src="assets/images/filmlist_th.jpg" class="img-responsive">
+                    <div class="single-line filmtitle">
+                        夏洛特烦恼
+                        <div class="single-line fllmshowtime">11月01日上映</div>
+                    </div>
+                  
+                </li>
+                <li>
+                    <img src="assets/images/filmlist_th.jpg" class="img-responsive">
+                    <div class="single-line filmtitle">
+                        夏洛特烦恼
+                        <div class="single-line fllmshowtime">11月01日上映</div>
+                    </div>
 
+                </li>
+                <li>
+                    <img src="assets/images/filmlist_th.jpg" class="img-responsive">
+                    <div class="single-line filmtitle">
+                        夏洛特烦恼
+                        <div class="single-line fllmshowtime">11月01日上映</div>
+                    </div>
 
+                </li>
+            </ul>
+        </div>
+        <div id="xb_mainnav" class="affix">
+            <ul class="clearfix">
+                <li class="active">
+                    <i class="icon-uniE903"></i>
+                   <label>主页</label>
+                </li>
+                <li>
+                    <i class="icon-uniE902"></i>
+                    <label>购票</label>
+                </li>
+                <li>
+                    <i class="icon-uniE901"></i>
+                    <label>活动</label>
 
+                </li>
+                <li>
+                    <i class="icon-uniE900"></i>
+                    <label>我的</label>
+
+                </li>
+            </ul>
+        </div>
     </div>
+
+  
+
+
     <script src="assets/js/plugins/swiperv3.1/swiper3.1.0.min.js"></script> 
     <script>
     var swiperimgsilder = new Swiper('.silder .swiper-container', {

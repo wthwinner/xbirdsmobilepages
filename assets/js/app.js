@@ -1,6 +1,5 @@
 
-var App = (function ($) {
-    
+var App = (function ($) {    
     var initRem =  function () {
         var w = document.getElementsByTagName("HTML")[0].getBoundingClientRect().right;
         if (w > 720) {
@@ -11,18 +10,23 @@ var App = (function ($) {
 
         }
     };
+    var initTitleTap = function () {
 
-
+        $(".xb_rectplan > .title[data-href]").on("tap", function (e) {
+            e.stopPropagation();
+            alert(1);
+        });
+      };
     return {
-        init: function () {
-    
+        init: function () {    
             initRem();
             $(window).resize(function () {
                 initRem();
             });
-
+            $(function () {
+                initTitleTap();
+            });
         }
-
     };
 
 })(window.jQuery);
