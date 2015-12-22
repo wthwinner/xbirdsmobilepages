@@ -2,7 +2,7 @@
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 <meta name="renderer" content="webkit"/>
@@ -20,19 +20,23 @@
     <link href="assets/js/plugins/swiperv3.1/swiper3.1.0.min.css" rel="stylesheet" />
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/jquery.mobile.custom.js"></script>
+    <script src="assets/js/app.js"></script>   
 </head>
 <body>
     <div id="xb_webcontainer" class="center-block">
         <div class="silder">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="assets/images/ibanner.jpg" class="img-responsive" /></div>
+                    <div class="swiper-slide"><a href="http://www.baidu.com"><img src="assets/images/ibanner.jpg" class="img-responsive" /></a></div>
                     <div class="swiper-slide"><img src="assets/images/ibanner.jpg" class="img-responsive" /></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </div>
 
+        <div class="xb_rectplan">
+            <h3 class="title" data-href="http://www.baidu.com">正在热映 <label class="pull-right">更多<i></i></label></h3>
+        </div>
 
 
 
@@ -43,9 +47,6 @@
         pagination: '.swiper-pagination',
         paginationClickable: true
     });
-
-
-
-    </script>
+   </script>
     </body>
 </html>
