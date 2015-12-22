@@ -33,3 +33,58 @@
             color:#999
          
         }
+
+
+/*内页头部无搜索图标样式*/
+.head_inner_title {
+    background-color:#fafafa;
+    border-bottom:1px solid #d8d8d8;
+    width:100%;
+    overflow:hidden;
+    padding-bottom:0.36rem;
+}
+    .head_inner_title > h4.title{
+        margin-right:3.8rem;
+        margin-top:1.1rem;
+        font-size:0.5rem;
+        color:#333;
+        line-height:0.5rem;
+    }
+    .head_inner_title > a.return{
+        display:block;
+        background-color:#303030;
+        width:0.88889rem;
+        height:0.88889rem;
+        margin-top:1.04rem;
+        margin-left:0.666rem;
+    }
+
+
+    /*热映和上映以及相似部分样式*/
+    .hit_and_release{
+        overflow:hidden;
+        width:100%;
+        border-bottom:1px solid #d8d8d8;
+    }
+         .hit_and_release >a{
+             text-align:center;
+             width:50%;
+             line-height:1.38rem;
+             font-size:0.3888rem;
+             color:#666;
+             float:left;
+         }
+         .hit_and_release div.left{
+             width:4.16667rem;
+             height:2px;
+             margin-left:0.444444rem;
+             background-color:#3bc0cb;
+             margin-bottom:-1px;
+         }
+         .hit_and_release div.right{
+             width:4.16667rem;
+             height:2px;
+             margin-right:0.444444rem;
+             background-color:#3bc0cb;
+             margin-bottom:-1px;
+         }

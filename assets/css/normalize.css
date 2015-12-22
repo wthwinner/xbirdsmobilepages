@@ -90,6 +90,7 @@ template {
  */
 
 a {
+    text-decoration:none;
   background-color: transparent;
 }
 
@@ -437,3 +438,4 @@ th {
 * {	
 	-webkit-tap-highlight-color:transparent
 }
+
