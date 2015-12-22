@@ -1,0 +1,7 @@
+﻿@charset "utf-8";
+#xb_webcontainer {
+    width:100%;
+    max-width:720px;
+    overflow:hidden
+}
+
