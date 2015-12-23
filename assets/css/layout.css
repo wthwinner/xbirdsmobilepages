@@ -1,38 +1,167 @@
 ﻿@charset "utf-8";
 #xb_webcontainer {
-    width:100%;
-    max-width:10rem;
-    overflow:hidden
+width:100%;
+max-width:10rem;
+overflow:hidden
 }
-
+#xb_webcontainer.havebottomnav {
+padding-bottom:1.722222222222rem!important
+}
 /*通用的容器块*/
 .xb_rectplan {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+padding:0.33333333rem;
+padding-top:0.4444444444rem;
+margin-top:0.3981481481rem;
+border-top:1px solid #d8d8d8;
+border-bottom:1px solid #d8d8d8;
+background-color:#fff;
+
+
+}
+.xb_rectplan > h3.title {
+font-size:0.44444444rem;
+line-height:0.4444444rem;
+font-weight:normal;
+width:100%;
+color:#303030
+}
+.xb_rectplan > h3.title > label {
+          
+line-height:0.44444444rem;
+font-size:0.36111111rem!important;
+color:#999;
+font-weight:normal
+         
+}
+.xb_rectplan > h3.title:hover, .xb_rectplan > h3.title:visited, .xb_rectplan > h3.title:link,.xb_rectplan > h3.title:hover > label, .xb_rectplan > h3.title:visited > label, .xb_rectplan > h3.title:link > label{
+color:#3bc0cb
+}
+/*表示标准的图片文字的非可滚动列表*/
+.xb_imglistns {
+margin-top:0.47222222rem
+}
+.xb_imglistns li{
+float:left;
+width:2.8888888889rem;
+margin-left:0.333333333rem;
+padding:0;
+}
+.xb_imglistns li:first-child {
+margin-left:0!important;
+}
+.xb_imglistns li > .filmtitle {
+padding-top:0.277777777rem;
+font-size:0.38888888rem;
+text-align:center;
+line-height:0.38888888rem;
+    
+
+}
+.xb_imglistns li > .filmtitle >.fllmshowtime {
+color:#999;
+font-size:0.333333333rem;
+text-align:center;
+padding-top:0.166666666666rem;
+
+}
+/*屏幕下方主导航*/
+#xb_mainnav {
+    width:100%;
+    max-width:10rem;
+    overflow:hidden;
+    height:1.33333333333rem;
+    background-color:#fbfbfb;
+    bottom:0;
+    z-index:30;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    padding:0.33333333rem;
-    padding-top:0.4444444444rem;
-    margin-top:0.3981481481rem;
     border-top:1px solid #d8d8d8;
-    border-bottom:1px solid #d8d8d8;
-    background-color:#fff
+    padding-left:0.5833333333rem;
+    padding-right:0.5833333333rem
+}
+#xb_mainnav > ul > li{
+height:1.33333333333rem;
+width:1.33333333333rem;
+overflow:hidden;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+float:left;
+margin-left:1.16666666666rem;
+     
+padding-right:0.296296296296rem;
+padding-top:0.185185185rem;
+padding-left:0.296296296296rem;
+padding-bottom:0.185185185rem;
+color:#666
+
+}
+#xb_mainnav > ul > li.active, #xb_mainnav > ul > li:hover,#xb_mainnav > ul > li:link, #xb_mainnav > ul > li:visited  {
+color:#3bc0cb
+}
+#xb_mainnav > ul > li:first-child {
+margin-left:0
+}
+#xb_mainnav > ul > li > label {
+font-size:0.3055555555rem;
+display:block;
+line-height:0.44851851851rem;
+width:0.759259259259rem;
+height:0.351851851851rem;
+text-align:center;
+           
+          
+}
+#xb_mainnav > ul > li > i{
+
+display:block;
+width:0.7592592592rem;
+height:0.6481481481rem;
+font-size:0.6481481481rem;
+line-height:0.6481481481rem;
+text-align:center
+             
 
 }
 
-    .xb_rectplan > h3.title {
-        font-size:0.44444444rem;
-        line-height:0.4444444rem;
-  
-        width:100%;
-        color:#303030
-    }
-        .xb_rectplan > h3.title > label {
-          
-            line-height:0.44444444rem;
-            font-size:0.36111111rem!important;
-            color:#999
-         
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*内页头部无搜索图标样式*/
@@ -44,7 +173,7 @@
     padding-bottom:0.36rem;
 }
     .head_inner_title > h4.title{
-        margin-right:3.8rem;
+        margin-left:2.65rem;
         margin-top:1.1rem;
         font-size:0.5rem;
         color:#333;
@@ -58,6 +187,15 @@
         margin-top:1.04rem;
         margin-left:0.666rem;
     }
+         /*内页头部有图标时直接a标签加类---------------------------------------------------------------------注释一定要长*/
+         .head_inner_title >a.introduces_or_search {
+             margin-right:0.666rem;
+             width:0.88889rem;
+             height:0.88889rem;
+             margin-top:1.04rem;
+             display:block;
+             background-color:#303030;
+         }
 
 
     /*热映和上映以及相似部分样式*/
