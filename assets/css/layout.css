@@ -129,41 +129,6 @@ text-align:center
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*内页头部无搜索图标样式*/
 .head_inner_title {
     background-color:#fafafa;
@@ -180,11 +145,12 @@ text-align:center
         line-height:0.5rem;
     }
     .head_inner_title > a.return{
+        font-size:0.6481481481rem;
+        color:#3bc0cb;
         display:block;
-        background-color:#303030;
         width:0.88889rem;
         height:0.88889rem;
-        margin-top:1.04rem;
+        margin-top:0.973rem;
         margin-left:0.666rem;
     }
          /*内页头部有图标时直接a标签加类---------------------------------------------------------------------注释一定要长*/
@@ -194,7 +160,6 @@ text-align:center
              height:0.88889rem;
              margin-top:1.04rem;
              display:block;
-             background-color:#303030;
          }
 
 

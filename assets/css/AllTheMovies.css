@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+
+
+.move_box{
+    width:100%;
+    margin-left:0.4444444rem;
+    padding-bottom:2rem;
+}
+    .move_box >p.month{
+        display:block;
+        font-size:0.41666666666666rem;
+        line-height:0.41666666666666rem;
+        margin-top:0.2777777rem;
+        margin-bottom:0.277777777rem;
+    }
+    .move_box ul li {
+        padding-top:0.38888888888rem;
+        overflow:hidden;
+        border-top:1px solid #d8d8d8;
+        padding-bottom:0.1296296rem
+    }
+        .move_box ul li >p{
+            font-size:0.3611111111rem;
+            line-height:0.3611111111rem;
+            color:#999;
+            display:block;
+        }
+        .move_box ul li >a{
+            display:block;
+            width:1.945rem;
+            height:2.723rem;
+            margin-left:0.27777777rem;
+            overflow:hidden;
+        }
+            .move_box ul li > a > img{
+                display:block;
+            }
+        .move_box ul li > div {
+            overflow:hidden;
+            margin-left:3.2407407rem;
+        }
+            .move_box ul li  > div > a {
+                display:block;
+                font-size:0.5rem;
+                line-height:0.6296rem;
+                color:#303030;
+            }
+            .move_box ul li > div > h2, .move_box ul li  > div > p{
+                float:left;
+                font-size:0.388888888888rem;
+                color:#666;
+                line-height:0.55555555555rem;
+                margin-top:0.1rem;
+            }
+             .move_box ul li  > div > p {
+                   color:#ffc000;
+               }
+          .move_box ul li > div > h3 {
+
+              color:#999;
+              font-size:0.3611111111111rem;
+              line-height:0.4629629629rem;
+              margin-top:0.76666666rem;
+          }
+          .move_box ul li > div > h4 {
+              display:block;
+              margin-top:0.1296296296rem;
+              width:2.037037037rem;
+              height:0.6481481481rem;
+              line-height:0.6481481481rem;
+              text-align:center;
+              font-size:0.36111111111rem;
+              border:2px solid #13a2f1;
+              border-radius:0.327327327rem;
+              color: #13a2f1;
+              
+          }
