@@ -438,3 +438,23 @@ th {
 * {	
 	-webkit-tap-highlight-color:transparent
 }
+
+
+/*文本框点击变浅样式*/
+input::-webkit-input-placeholder { 
+color: #999; 
+-webkit-transition: color.5s; 
+} 
+input:focus::-webkit-input-placeholder { 
+color: #dcdcd9; 
+-webkit-transition: color.5s; 
+} 
+
+input:focus::-moz-placeholder {
+    color: #999; 
+    transition: color.5s; 
+}
+input:focus:-ms-input-placeholder {
+    color: #dcdcd9; 
+    transition: color.5s; 
+}
