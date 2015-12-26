@@ -1,4 +1,6 @@
 ﻿.sign_in{
+    padding-bottom:1.481481481rem;
+    font-weight:600;
 }
     .sign_in > a.return {
         display:block;
@@ -85,5 +87,99 @@
         .in > a {
             color:#666;
         }
+    .sign_in > div.other_account_number {
+        position:relative;
+        width:6.962rem;
+        margin:0 auto;
+        margin-top:1.53335555555rem;
+    }
+           .other_account_number > div.hr {
+               margin-bottom:-0.67555rem;
+               border-bottom:1px solid #aaa;
+           }
+          .other_account_number > p.other_account_number_prompt {
+              background-color:#f5f5f5;
+              display:block;
+              width:2.5248148148rem;
+              text-align:center;
+              font-size:0.33333333333333rem;
+              padding:0.13888888888888rem;
+              margin: 0 auto;
+          }
+          .account_number_type > a {
+              border-radius:0.33rem;
+              color:#fff;
+              background-color:#3bc0cb;
+              text-align:center;
+              line-height:1.11111111rem;
+              font-size:0.5rem;
+              width:1.11111111rem;
+              float:left;
+              margin-left:0.8907407840740rem;
+          }
 
+
+/*用于logo的css动画*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.delay{
+     -webkit-animation-delay:5s;
+  animation-delay:.6s
+
+}
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+@-webkit-keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+
+  50%, 55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+}
+
+@keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+
+  50%, 55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  80% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceOut {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+}
 

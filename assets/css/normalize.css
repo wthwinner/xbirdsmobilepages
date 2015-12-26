@@ -452,9 +452,9 @@ color: #dcdcd9;
 
 input:focus::-moz-placeholder {
     color: #999; 
-    transition: color.5s; 
+    -moz-transition: color.5s; 
 }
 input:focus:-ms-input-placeholder {
     color: #dcdcd9; 
-    transition: color.5s; 
+    -ms-transition: color.5s; 
 }

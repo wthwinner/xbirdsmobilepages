@@ -62,7 +62,7 @@
               line-height:0.4629629629rem;
               margin-top:0.76666666rem;
           }
-          .move_box ul li > div > h4 {
+          .move_box ul li > div > a:last-child {
               display:block;
               margin-top:0.1296296296rem;
               width:2.037037037rem;
@@ -75,3 +75,14 @@
               color: #13a2f1;
               
           }
+
+
+
+
+
+
+
+
+
+
+
